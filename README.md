@@ -1,79 +1,89 @@
 # 🎯 Flutter Quiz App
 
-A beginner-friendly **Quiz App** built with Flutter. This app presents multiple-choice questions, tracks the user's answers, and displays the final result with a summary. It's a great project to learn the fundamentals of Flutter, widget navigation, and basic state management.
+![Quiz App Demo](Project%20Screenshots/Quiz_Home_Page.png) 
 
----
+A beautiful and interactive Quiz App built with Flutter that tests your knowledge with multiple-choice questions and provides detailed results.
 
-## 🚀 Features
+## ✨ Features
 
-- 🎯 Multiple-choice quiz with interactive buttons  
-- 🧠 Tracks answers and calculates score  
-- 📋 Result screen with answer summary  
-- 📱 Clean and minimal Material UI  
+### Quiz Experience
+- **Multiple Question Types**: Answer diverse questions with shuffled options
+- **Progress Tracking**: Automatically advances through questions
+- **Instant Feedback**: See correct/incorrect answers immediately
 
----
+### Results & Analytics
+- **Score Calculation**: Shows correct/total questions ratio
+- **Detailed Summary**: Review all questions with your answers
+- **Answer Comparison**: Highlights correct vs your answers
+
+### UI/UX
+- **Beautiful Gradients**: Purple/blue themed background
+- **Responsive Design**: Works on all screen sizes
+- **Material 3 Components**: Modern buttons and layouts
+- **Custom Typography**: Google Fonts integration
+
+### Functionality
+- **Restart Capability**: Take the quiz again with fresh start
+- **State Management**: Tracks answers throughout the quiz
+- **Shuffled Answers**: Randomizes option order each time
 
 ## 🧠 What I Learned
 
-While building this app, I learned:
+Building this app helped me understand:
 
-- How to structure a Flutter project with multiple screens  
-- Using `StatefulWidget` and `setState()` for managing app logic  
-- Creating custom widgets like buttons and summaries  
-- Passing data between widgets  
+- **Widget Composition**: Creating reusable custom widgets
+- **State Management**: Using `setState` for UI updates
+- **Screen Navigation**: Switching between start/quiz/result screens
+- **Data Handling**: Processing and displaying quiz results
+- **UI Styling**: Working with gradients, fonts and Material 3
 
----
+## 🛠️ Technical Implementation
 
-## 🛠️ Getting Started
+### Core Components
+- `Quiz`: Main app state manager
+- `QuestionScreen`: Displays questions and handles answers
+- `ResultScreen`: Shows final score and summary
+- `AnswerButton`: Custom styled answer button
+- `SummaryData`: Detailed answer breakdown
+
+### Data Flow
+1. Start screen initiates quiz
+2. Questions displayed sequentially
+3. Answers collected in list
+4. Results calculated and shown
+5. Option to restart quiz
+
+## 🚀 Getting Started
 
 ### Prerequisites
+- Flutter SDK installed
+- Android Studio/VSCode with Flutter plugin
+- Device/emulator for testing
 
-- Flutter SDK installed  
-- A code editor like VS Code or Android Studio  
-- An emulator or physical device to run the app  
-
-### How to Run
-
-1. Clone the repository:
-
+### Installation
 ```bash
 git clone https://github.com/purvavyawahare/quizapp.git
 cd quizapp
-```
-
-2. Install dependencies:
-
-```bash
 flutter pub get
-```
-
-3. Run the app:
-
-```bash
 flutter run
-```
 
----
+## 📸 Screenshots
 
-## 🤝 Contributing
+| Start Screen | Question Screen | Results Screen |
+|--------------|-----------------|----------------|
+| <img src="Project Screenshots/Quiz_Home_Page.png" width="200"> | <img src="Project Screenshots/Quiz_Questions.png" width="200"> | <img src="Project Screenshots/Result_Page.png" width="200"> |
 
-Feel free to fork this repo and add features or fix bugs! Pull requests are welcome.
-
----
 
 ## 📚 Resources
 
-If you're new to Flutter, these will help you get started:
-
-- [Flutter Official Docs](https://flutter.dev/docs)  
-- [Write Your First Flutter App (Codelab)](https://flutter.dev/docs/get-started/codelab)  
-- [Flutter Cookbook](https://flutter.dev/docs/cookbook)
-
----
+| Resource | Description |
+|----------|-------------|
+| [Flutter Documentation](https://flutter.dev/docs) | Official Flutter docs |
+| [Dart Language Tour](https://dart.dev/guides/language/language-tour) | Learn Dart basics |
+| [Material 3 Guidelines](https://m3.material.io/) | Design system reference |
 
 ## 👩‍💻 Author
 
 **Purva Vyawahare**  
-[GitHub Profile](https://github.com/PurvaVyawahare)
-
----
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/purvavyawahare)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/purva-vyawahare-739530332) 
